@@ -13,7 +13,7 @@
 
 ```
 <link rel="stylesheet" href="example.com/cookie-monster/assets/css/cookie-monster.css" media="screen" />
-<div class="cookie-monster"><a href="example.com/cookie-monster/"><img class="cookie-monster" src="https://podivilov.ru/assets/img/cookie-monster.png"></img></a></div>
+<div class="cookie-monster"><a href="example.com/cookie-monster/"><img class="cookie-monster" src="example.com/cookie-monster/assets/img/cookie-monster.png"></img></a></div>
 <script src="example.com/cookie-monster/assets/js/cookie-monster.js"></script>
 ```
 
