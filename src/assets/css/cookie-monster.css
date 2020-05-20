@@ -1,0 +1,14 @@
+.cookie-monster {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.cookie-monster img {
+    width: 300px;
+    margin-right: 25px;
+    opacity: 75%;
+    z-index: 99;
+}
+.cookie-monster img:hover {
+    opacity: 100%;
+}

@@ -1,0 +1,13 @@
+<script>
+function setCrossSubdomainCookie(name, value, days) {
+  const assign = name + "=" + escape(value) + ";";
+  const d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  const expires = "expires="+ d.toUTCString() + ";";
+  const path = "path=/;";
+  const domain = "domain=" + (document.domain.match(/[^\.]*\.[^.]*$/)[0]) + ";";
+  document.cookie = assign + expires + path + domain;
+}
+setCrossSubdomainCookie("cookie-monster", "eat", 365);
+window.location.replace("example.com/cookie-monster/oops/");
+</script>

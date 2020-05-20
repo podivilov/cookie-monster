@@ -1,2 +1,6 @@
-# cookie-monster
+# Cookie Monster
 Уведомление об использовании кук, которое хочется прочитать
+
+## Установка
+
+Замените в js/cookie-monster.js example.com на урл сайта с инфой
